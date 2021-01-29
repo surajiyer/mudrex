@@ -1,0 +1,7 @@
+__title__ = 'mudrex'
+__version__ = '0.1.0'
+__summary__ = 'Send external webhook signals to Mudrex platform.'
+__uri__ = 'https://github.com/surajiyer/mudrex'
+__author__ = 'Suraj Iyer'
+__email__ = 'me@surajiyer.com'
+__license__ = 'MIT'
