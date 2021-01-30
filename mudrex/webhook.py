@@ -35,7 +35,7 @@ class WebhookSignal(object):
         # Send a POST request to Mudrex webhook
         r = requests.post(
             self.api_url,
-            data=msg,
+            json=msg,
             headers={"Content-Type": "application/json"})
         return r.status_code, r.reason
 
